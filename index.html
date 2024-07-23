@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password-Validator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <h1>Password Validator</h1>
+        <input type="text" name="password" id="field">
+        <i class="fa-regular fa-copy" id="icon" style="color: #ffffff;"></i>
+        <div class="conditions">
+            <h2>Password Should Contain</h2>
+            <div class="points" id="p1">Atleast 1 Number (0-9)</div>
+            <div class="points" id="p2">Atleast 12 Letters</div>
+            <div class="points" id="p3">Atleast 1 Special Characters</div>
+            <div class="points" id="p4">Atleast 1 Loewer Case Letter</div>
+            <div class="points" id="p5">Atleast 1 Upper Case Letter</div>
+        </div>
+        </div>
+        <script src="app.js"></script>
+</body>
+</html>
